@@ -4,7 +4,7 @@ const User = require('../Models/User')
 const jwt = require("jsonwebtoken");
 const jwtSecret="Hiiamamankumarrathoredeveloper";
 const upload = require("./fileUpload");
-const User1 = require('../models/File');
+const User1 = require('../Models/File');
 
 //middleware to parse the bodies
     app.use(express.json());
